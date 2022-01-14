@@ -1,0 +1,28 @@
+{
+  "books": [
+    {
+      "id": "2",
+      "name": "Harry Potter",
+      "Author": "JK. Rowling",
+      "Category": "Fantasy"
+    },
+    {
+      "id": "3",
+      "name": "Right Time, Right Choice",
+      "Author": "Bin Yan",
+      "Category": "Motivation"
+    },
+    {
+      "id": "4",
+      "name": "The Alchemist",
+      "Author": "Paulo Coelho",
+      "Category": "Novel"
+    },
+    {
+      "id": "5",
+      "name": "Crazy Rich Asian",
+      "Author": "Kevin Kwan",
+      "Category": "Comedy"
+    }
+  ]
+}

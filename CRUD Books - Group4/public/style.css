@@ -1,0 +1,92 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(../public/image/background-image.jpg);
+    background-size: cover;
+    color: rgb(179, 174, 174);
+}
+
+.content {
+    background-color: rgba(148, 142, 142, 0.342);
+    margin: 32px;
+}
+
+.hero {
+    margin: 30px;
+    padding-bottom: 30px;
+}
+
+input {
+    filter: brightness(90%);
+}
+
+nav {
+    margin-top: 30px;
+    color: white
+}
+
+.table tbody tr:hover {
+    transform: scale(1.01)
+}
+
+nav {
+    font-family: 'Raleway', sans-serif;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.gradient-text {
+    background: linear-gradient(to right, crimson, pink, springgreen);
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    width: 80vw;
+    margin: 20px auto;
+    display: block;
+    text-align: center;
+    transition: color .2s ease-in-out;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.gradient-text {
+    color: rgba(0, 0, 0, 0);
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: left
+    }
+    50% {
+        background-position: right
+    }
+    100% {
+        background-position: left
+    }
+}
+
+label {
+    font-weight: bold;
+}
+
+.btn {
+    margin-left: 10px;
+}
+
+.behaviour {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 400px) {
+    .booklist {
+        margin-left: -19px;
+    }
+    .booklist h3 {
+        margin-left: 70px;
+    }
+}
